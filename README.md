@@ -1,5 +1,5 @@
 # ABRACE - Ação Beneficente para Recursos Alimentares e Cuidados Essenciais
-Escreva um ou dois parágrafos resumindo o objetivo do seu projeto.
+No projeto ABRACE, trabalharemos ao longo do semestre na criação de uma plataforma web com o objetivo de contribuir para a erradicação da pobreza, conforme estabelecido pela Agenda 2030 da ONU. Por meio de ações de arrecadação de fundos e distribuição de cestas básicas de alimentação, higiene, e outros cuidados essenciais, buscaremos oferecer assistência mensal de qualidade a famílias de baixa renda, visando promover a segurança alimentar e a melhoria da qualidade de vida. Nosso projeto se propõe a ser um agente de transformação social, promovendo a solidariedade e a conscientização sobre a importância de combater a pobreza e a fome em nossa sociedade.
 
 ## Alunos integrantes da equipe
 
