@@ -5,7 +5,7 @@ Escreva um ou dois parágrafos resumindo o objetivo do seu projeto.
 
 * Arthur Coelho de Souza
 * Melissa Duque Baía
-* Nome completo do aluno 3
+* Luiz Henrique Magalhães
 * Nome completo do aluno 4
 * Nome completo do aluno 4
 * Nome completo do aluno 4
