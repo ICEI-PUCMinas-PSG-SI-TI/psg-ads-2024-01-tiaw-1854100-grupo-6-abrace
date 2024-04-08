@@ -52,14 +52,8 @@ Os membros do grupo são:
 
 ## Objetivos
 
-......  COLOQUE AQUI O SEU TEXTO ......
+No projeto ABRACE, trabalharemos ao longo do semestre na criação de uma plataforma web com o objetivo de contribuir para a erradicação da pobreza, conforme estabelecido pela Agenda 2030 da ONU. Por meio de ações de arrecadação de fundos e distribuição de cestas básicas de alimentação, higiene, e outros cuidados essenciais, buscaremos oferecer assistência mensal de qualidade a famílias de baixa renda, visando promover a segurança alimentar e a melhoria da qualidade de vida. Além da assistência mensal com doações, também ofereceremos suporte para campanhas eventuais para arrecadações de itens como: agasalhos, material escolar, etc. Nosso projeto se propõe a ser um agente de transformação social, promovendo a solidariedade e a conscientização sobre a importância de combater a pobreza e a fome em nossa sociedade. 
 
-> Aqui você deve descrever os objetivos do trabalho indicando que o
-> objetivo geral é desenvolver um software para solucionar o problema
-> apresentado acima. Apresente também pelo menos 2 objetivos
-> específicos dependendo de onde você vai querer concentrar ou aprofundar
-> as características do trabalho.
-> 
 > **Link Útil**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
