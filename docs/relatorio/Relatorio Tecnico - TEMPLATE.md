@@ -9,12 +9,14 @@ Análise e Desenvolvimento de Sistemas
 
 ## Participantes
 
-> Arthur Coelho de Souza
-> Bernardo Cabral
-> Davi de Miranda Costa
-> Luiz Henrique Magalhães
-> Melissa Duque Baía
-> Samuel Oliveira Soares
+Os membros do grupo são:
+
+> - Arthur Coelho de Souza
+> - Bernardo Cabral
+> - Davi de Miranda Costa
+> - Luiz Henrique Magalhães
+> - Melissa Duque Baía
+> - Samuel Oliveira Soares
 
 # Estrutura do Documento
 
