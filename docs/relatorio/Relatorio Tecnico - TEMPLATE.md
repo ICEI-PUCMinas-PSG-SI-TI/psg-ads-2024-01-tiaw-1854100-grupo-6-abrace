@@ -1,21 +1,20 @@
 # Informações do Projeto
 `TÍTULO DO PROJETO`  
 
-......  COLOQUE AQUI O SEU TEXTO ......
+ABRACE - Ação Beneficente para Recursos Alimentares e Cuidados Essenciais
 
 `CURSO` 
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Análise e Desenvolvimento de Sistemas
 
 ## Participantes
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Inclua a lista dos membros da equipe com seus nomes completos.
->
-> Os membros do grupo são: 
-> - Fulano da Silva
-> - Ciclano Albuquerque
+Arthur Coelho de Souza
+Bernardo Cabral
+Davi de Miranda Costa
+Luiz Henrique Magalhães
+Melissa Duque Baía
+Samuel Oliveira Soares
 
 # Estrutura do Documento
 
