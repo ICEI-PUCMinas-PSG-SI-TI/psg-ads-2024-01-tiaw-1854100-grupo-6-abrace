@@ -40,15 +40,7 @@ Os membros do grupo são:
 
 ## Problema
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Nesse momento você deve apresentar o problema que a sua aplicação deve
-> resolver. No entanto, não é a hora de comentar sobre a aplicação.
-> Descreva também o contexto em que essa aplicação será usada, se
-> houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de
-> fato existir, pois ainda não é a hora de apresentar requisitos
-> detalhados ou projetos. Utilize como base a ficha inicial de detalhamento do problema.
->
+A fome e a pobreza são realidades enfrentadas por milhões de pessoas no mundo todo. De acordo com o IBGE, em pesquisa realizada em 2022, quase 68 milhões de brasileiros viviam em situação de pobreza e 13 milhões em extrema pobreza. As famílias de baixa renda têm dificuldade em garantir acesso a uma alimentação nutritiva e diversificada, impactando diretamente em sua qualidade de vida, fatos estes que contribuem para a permanência deste ciclo de vulnerabilidade social.
 
 ## Objetivos
 
