@@ -46,28 +46,10 @@ A fome e a pobreza são realidades enfrentadas por milhões de pessoas no mundo 
 
 No projeto ABRACE, trabalharemos ao longo do semestre na criação de uma plataforma web com o objetivo de contribuir para a erradicação da pobreza, conforme estabelecido pela Agenda 2030 da ONU. Por meio de ações de arrecadação de fundos e distribuição de cestas básicas de alimentação, higiene, e outros cuidados essenciais, buscaremos oferecer assistência mensal de qualidade a famílias de baixa renda, visando promover a segurança alimentar e a melhoria da qualidade de vida. Além da assistência mensal com doações, também ofereceremos suporte para campanhas eventuais para arrecadação de itens como: agasalhos, material escolar, etc. Nosso projeto se propõe a ser um agente de transformação social, promovendo a solidariedade e a conscientização sobre a importância de combater a pobreza e a fome em nossa sociedade. 
 
-> **Link Útil**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
-
 ## Público-Alvo
 
-......  COLOQUE AQUI O SEU TEXTO ......
+O público-alvo do nosso projeto são a população brasileira que, independentemente da faixa etária, gênero ou região, se encontra em situação de vulnerabilidade social e as pessoas/instituições interessadas em fornecer algum tipo de auxílio à ela.
 
-> Descreva quem serão as pessoas que usarão a sua aplicação indicando os
-> diferentes perfis. O objetivo aqui não é definir quem serão os
-> clientes ou quais serão os papéis dos usuários na aplicação. A ideia
-> é, dentro do possível, conhecer um pouco mais sobre o perfil dos
-> usuários: conhecimentos prévios, relação com a tecnologia, relações
-> hierárquicas, etc.
->
-> Adicione informações sobre o público-alvo por meio de uma descrição
-> textual, ou diagramas de personas, mapa de stakeholders, ou como o
-> grupo achar mais conveniente.
-> 
-> **Links Úteis**:
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
- 
 # Especificações do Projeto
 
 ......  COLOQUE AQUI O SEU TEXTO ......
