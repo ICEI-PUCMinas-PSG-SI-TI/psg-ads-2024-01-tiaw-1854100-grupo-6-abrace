@@ -105,8 +105,22 @@ A tabela que segue apresenta os requisitos funcionais do projeto.
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| Permitir que o usuário veja os beneficiados | MÉDIA | 
+|RF-002| Permitir que o usuário veja dados estátisticos | MÉDIA |
+|RF-003| Permitir doadores acompanhar destino das doações | ALTA |
+|RF-004| Permitir o usuário cadastrar para doar financeiramente | ALTA |
+|RF-005| Permitir o usuário cadastrar para voluntariado | ALTA |
+|RF-006| Permitir o usuário cadastrar família  | ALTA |
+|RF-007| Permitir doadores e voluntários acessar benefícios  | MÉDIA |
+|RF-008| Fornecer suporte online ao usuário  | ALTA |
+|RF-009| Permitir o usuário cadastrar em campanhas sazonais  | ALTA |
+|RF-010| Permitir o usuário participar do quiz  | MÉDIA |
+|RF-011| Permitir o usuário cadastrar para doar| ALTA |
+|RF-012| Permitir o usuário registrar depoimento  | MÉDIA |
+|RNF-001| Permitir o sistema recuperar de falhas  | ALTA |
+|RNF-002| Permitir o usuário cadastrar em 1 minuto  | ALTA |
+|RNF-003| Permitir o sistema criptografar dados do usuário  | ALTA |
+|RNF-004| Permitir o sistema suportar 1000 usuários simultãneos   | ALTA |
 
 
 > Com base nas Histórias de Usuário, enumere os requisitos da sua
