@@ -120,7 +120,9 @@ A tabela que segue apresenta os requisitos funcionais do projeto.
 |RNF-001| Permitir o sistema recuperar de falhas  | ALTA |
 |RNF-002| Permitir o usuário cadastrar em 1 minuto  | ALTA |
 |RNF-003| Permitir o sistema criptografar dados do usuário  | ALTA |
-|RNF-004| Permitir o sistema suportar 1000 usuários simultãneos   | ALTA |
+|RNF-004| Permitir o sistema suportar 1000 usuários simultâneos   | ALTA |
+|RNF-005| Permitir segurança no sistema identificando seus usuários   | ALTA |
+|RNF-006| Permitir acessar o sistema a partir de xyz versão do cliente Browser   | ALTA |
 
 
 > Com base nas Histórias de Usuário, enumere os requisitos da sua
