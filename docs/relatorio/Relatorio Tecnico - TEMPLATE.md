@@ -48,7 +48,7 @@ No projeto ABRACE, trabalharemos ao longo do semestre na criação de uma plataf
 
 ## Público-Alvo
 
-O público-alvo do nosso projeto são a população brasileira que, independentemente da faixa etária, gênero ou região, se encontra em situação de vulnerabilidade social e as pessoas/instituições interessadas em fornecer algum tipo de auxílio à ela.
+O público-alvo do nosso projeto são a população brasileira que, independentemente da faixa etária, gênero ou região, se encontra em situação de vulnerabilidade social e as pessoas/instituições com recursos disponíveis e interessadas em fornecer algum tipo de auxílio à ela.
 
 # Especificações do Projeto
 
