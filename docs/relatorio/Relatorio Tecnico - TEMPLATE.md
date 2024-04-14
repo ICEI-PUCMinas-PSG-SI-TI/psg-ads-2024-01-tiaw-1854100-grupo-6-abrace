@@ -83,19 +83,12 @@ O público-alvo do nosso projeto são a população brasileira que, independente
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-> Seguindo o modelo acima, apresente aqui as histórias de usuário que são relevantes para o
-> projeto de sua solução. As Histórias de Usuário consistem em uma
-> ferramenta poderosa para a compreensão e elicitação dos requisitos
-> da sua aplicação. Utilize as personas criadas como atores e, se for o caso, um administrador. 
->
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
+|EU COMO... `PERSONA`                         | QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+|---------------------------------------------|------------------------------------|----------------------------------------|
+| Pessoa em situação de vulnerabilidade social | Preciso estar disponível no sistema para receber as doações | Obter de fato algum tipo de auxílio ao participar do programa |
+| Voluntário | Preciso saber quando algum evento irá acontecer | Conseguir atuar como voluntário nos eventos do programa |
+| Pessoa interessada em prestar auxílio | Preciso saber quando campanhas de arrecadação estiverem ocorrendo | Poder efetuar minhas doações ao programa |
+| Instituição interessada em prestar auxílio | Preciso saber quando campanhas de arrecadação estiverem ocorrendo | Poder efetuar doações ao programa |
 
 ## Requisitos
 
