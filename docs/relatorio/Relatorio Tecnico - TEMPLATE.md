@@ -85,9 +85,13 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`                         | QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |---------------------------------------------|------------------------------------|----------------------------------------|
+| Pessoa em situação de vulnerabilidade social | Preciso conseguir me cadastrar no sistema | Poder participar do programa como beneficiário |
 | Pessoa em situação de vulnerabilidade social | Preciso estar disponível no sistema para receber as doações | Obter de fato algum tipo de auxílio ao participar do programa |
+| Voluntário | Preciso conseguir me cadastrar no sistema | Ser informado sobre campanhas e atividades do programa |
 | Voluntário | Preciso saber quando algum evento irá acontecer | Conseguir atuar como voluntário nos eventos do programa |
+| Pessoa interessada em prestar auxílio | Preciso fazer meu cadastro como pessoa física no sistema | Para ser identificado no sistema |
 | Pessoa interessada em prestar auxílio | Preciso saber quando campanhas de arrecadação estiverem ocorrendo | Poder efetuar minhas doações ao programa |
+| Instituição interessada em prestar auxílio | Preciso fazer meu cadastro como pessoa jurídica no sistema | Para ser identificado no sistema |
 | Instituição interessada em prestar auxílio | Preciso saber quando campanhas de arrecadação estiverem ocorrendo | Poder efetuar doações ao programa |
 
 ## Requisitos
@@ -106,24 +110,18 @@ A tabela que segue apresenta os requisitos funcionais do projeto.
 |RF-006| Permitir o usuário cadastrar família  | ALTA |
 |RF-007| Permitir doadores e voluntários acessar benefícios  | MÉDIA |
 |RF-008| Fornecer suporte online ao usuário  | ALTA |
-|RF-009| Permitir o usuário cadastrar em campanhas sazonais  | ALTA |
-|RF-010| Permitir o usuário participar do quiz  | MÉDIA |
-|RF-011| Permitir o usuário cadastrar para doar| ALTA |
-|RF-012| Permitir o usuário registrar depoimento  | MÉDIA |
+|RF-009| Permitir que o usuário se inscreva em campanhas sazonais  | ALTA |
+|RF-010| Permitir o usuário participar do quiz  | BAIXA |
+|RF-011| Permitir o usuário registrar depoimento  | BAIXA |
+|RF-012| Permitir doações para uma causa específica  | MÉDIA |
+
+### Requisitos Não Funcionais
+
 |RNF-001| Permitir o sistema recuperar de falhas  | ALTA |
 |RNF-002| Permitir o usuário cadastrar em 1 minuto  | ALTA |
 |RNF-003| Permitir o sistema criptografar dados do usuário  | ALTA |
 |RNF-004| Permitir o sistema suportar 1000 usuários simultâneos   | ALTA |
 |RNF-005| Permitir segurança no sistema identificando seus usuários   | ALTA |
-|RNF-006| Permitir acessar o sistema a partir de xyz versão do cliente Browser   | ALTA |
-
-
-> Com base nas Histórias de Usuário, enumere os requisitos da sua
-> solução. Classifique esses requisitos em dois grupos:
->
-> Lembre-se que cada requisito deve corresponder à uma e somente uma
-> característica alvo da sua solução. Além disso, certifique-se de que
-> todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 # Projeto da Solução
 
