@@ -110,28 +110,13 @@ A tabela que segue apresenta os requisitos não funcionais do projeto.
 
 # Projeto da Solução
 
-Como ferramenta de organização durante o Design Thinking, utilizamos o Miro para realizar os artefatos;
-Como ferramenta de Design de Interfaces, utilizamos os Figma para esboçar as telas do nosso site;
-Como ferramenta de Kanban, utilizamos o Projects do próprio Github para acompanhar a resolução das tarefas relacionadas ao projeto.
+> Como ferramenta de organização durante o Design Thinking, utilizamos o Miro para realizar os artefatos;
+> Como ferramenta de Design de Interfaces, utilizamos os Figma para esboçar as telas do nosso site;
+> Como ferramenta de Kanban, utilizamos o Projects do próprio Github para acompanhar a resolução das tarefas relacionadas ao projeto.
 
 ## Wireframes
 
-......  INCLUA AQUI OS WIREFRAMES DAS TELAS DA APLICAÇÃO COM UM BREVE DESCRITIVO ......
-
-> Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a
-> estrutura de um site web e seu relacionamentos entre suas
-> páginas. Um wireframe web é uma ilustração semelhante ao
-> layout de elementos fundamentais na interface.
-> 
-> **Links Úteis**:
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> 
-> **Exemplo**:
-> 
-> ![Exemplo de Link para Wireframe](images/wireframe-example.png)
+[ABRACE - TIAW.pdf](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-ads-2024-01-tiaw-1854100-grupo-6-abrace/files/14973487/ABRACE.-.TIAW.pdf)
 
 
 ## Mapa de navegação
