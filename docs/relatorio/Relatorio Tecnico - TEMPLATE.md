@@ -56,7 +56,9 @@ A seguir temos as personas, histórias de usuários e requisitos funcionais e n�
 
 ## Personas
 
-
+![Persona2](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-ads-2024-01-tiaw-1854100-grupo-6-abrace/assets/51198520/ad019118-6fa8-4c51-bd0c-6686e22d3dd1)
+![Persona1](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-ads-2024-01-tiaw-1854100-grupo-6-abrace/assets/51198520/364d83e1-0965-4d40-bd9e-91799c2f95fe)
+![Persona3](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-ads-2024-01-tiaw-1854100-grupo-6-abrace/assets/51198520/bf67900b-e07f-48db-844a-d09648d922fc)
 
 ## Histórias de Usuários
 
@@ -98,6 +100,8 @@ A tabela que segue apresenta os requisitos não funcionais do projeto.
 
 ### Requisitos Não Funcionais
 
+|ID    | Descrição do Requisito  | Prioridade |
+|------|-----------------------------------------|----|
 |RNF-001| Permitir o sistema recuperar de falhas  | ALTA |
 |RNF-002| Permitir o usuário cadastrar em 1 minuto  | ALTA |
 |RNF-003| Permitir o sistema criptografar dados do usuário  | ALTA |
