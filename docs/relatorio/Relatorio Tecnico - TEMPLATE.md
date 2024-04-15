@@ -110,9 +110,9 @@ A tabela que segue apresenta os requisitos não funcionais do projeto.
 
 # Projeto da Solução
 
-> Como ferramenta de organização durante o Design Thinking, utilizamos o Miro para realizar os artefatos;
-> Como ferramenta de Design de Interfaces, utilizamos os Figma para esboçar as telas do nosso site;
-> Como ferramenta de Kanban, utilizamos o Projects do próprio Github para acompanhar a resolução das tarefas relacionadas ao projeto.
+> - Como ferramenta de organização durante o Design Thinking, utilizamos o Miro para realizar os artefatos;
+> - Como ferramenta de Design de Interfaces, utilizamos os Figma para esboçar as telas do nosso site;
+> - Como ferramenta de Kanban, utilizamos o Projects do próprio Github para acompanhar a resolução das tarefas relacionadas ao projeto.
 
 ## Wireframes
 
