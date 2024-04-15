@@ -110,8 +110,9 @@ A tabela que segue apresenta os requisitos não funcionais do projeto.
 
 # Projeto da Solução
 
-......  COLOQUE AQUI O SEU TEXTO ......
-> Descreva brevemente quais tecnologias e/ou frameworks foram utilizados no projeto.
+Como ferramenta de organização durante o Design Thinking, utilizamos o Miro para realizar os artefatos;
+Como ferramenta de Design de Interfaces, utilizamos os Figma para esboçar as telas do nosso site;
+Como ferramenta de Kanban, utilizamos o Projects do próprio Github para acompanhar a resolução das tarefas relacionadas ao projeto.
 
 ## Wireframes
 
@@ -135,14 +136,13 @@ A tabela que segue apresenta os requisitos não funcionais do projeto.
 
 ## Mapa de navegação
 
-......  COLOQUE AQUI O SEU TEXTO OU DIAGRAMA DE NAVEGAÇÃO .......
+Um usuário Em Situação de Vulnerabilidade Social ou que conheça alguém nesta situação, começa a navegar no site pela Home, se possuir cadastro, vai para a tela de Login, caso contrário é necessário que cadastre a Família no sistema primeiro. Após o cadastro ou login ele poderá ver as causas pelas quais poderá ser ajudado na tela Campanhas.
 
-> Inclua uma descrição textual ou um diagrama mostrando, sequencialmente, quais ações
-> um usuário deve realizar para utilizar todas as características do seu sistema. 
+Um usuário Voluntário começa a navegar no site pela Home, se possuir cadastro, vai para a tela de Login, caso contrário é necessário se cadastre no sistema primeiro. Após o cadastro ou login, ele poderá visualizar os eventos nos quais pode atuar na tela Campanhas.
 
+Um usuário Interessado em prestar auxílio começa a navegar no site pela Home, se possuir cadastro, vai para a tela de Login, caso contrário é necessário se cadastre no sistema como pessoa física primeiro. Após o cadastro ou login, ele poderá visualizar as causas para as quais pode doar na tela Campanhas. Caso se interesse por alguma campanha/causa, o usuário pode clicar no botão "Doe agora!" e contribuir através da tela Página de Doações.
 
-> **Exemplo de Diagrama (opcional, pode ser em texto)**
-> ![Exemplo de Diagrama de Navegação](images/userflow.jpg)
+Um usuário de uma Empresa Interessada em prestar auxílio começa a navegar no site pela Home, se possuir cadastro, vai para a tela de Login, caso contrário é necessário se cadastre no sistema como pessoa jurídica primeiro. Após o cadastro ou login, ele poderá visualizar as causas para as quais pode doar na tela Campanhas. Caso se interesse por alguma campanha/causa, o usuário pode clicar no botão "Doe agora!" e contribuir através da tela Página de Doações.
 
 # Conclusões
 
