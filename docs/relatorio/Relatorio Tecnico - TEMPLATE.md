@@ -52,36 +52,15 @@ O público-alvo do nosso projeto são a população brasileira que, independente
 
 # Especificações do Projeto
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Apresente uma visão geral do que será abordado nesta parte do
-> documento, enumerando as técnicas e/ou ferramentas utilizadas para
-> realizar a especificações do projeto
+A seguir temos as personas, histórias de usuários e requisitos funcionais e não funcionais que tivemos como base para desenvolver o projeto.
 
 ## Personas
 
-......  COLOQUE AQUI O SEU TEXTO ......
 
-> Relacione as personas identificadas no seu projeto. Lembre-se que 
-> você deve descrever precisamente e de forma personalizada o público alvo do seu projeto. 
-> Você pode incluir uma imagem da ficha de persona desenvolvida. 
->
-> Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina
-> e/ou nos seguintes links:
->
-> **Links Úteis**:
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> 
-> **Exemplo de Ficha**
-> ![Exemplo de Persona](images/persona.png)
- 
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+Com base na análise das personas foram identificadas as seguintes histórias de usuários:
 
 |EU COMO... `PERSONA`                         | QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |---------------------------------------------|------------------------------------|----------------------------------------|
@@ -114,6 +93,8 @@ A tabela que segue apresenta os requisitos funcionais do projeto.
 |RF-010| Permitir o usuário participar do quiz  | BAIXA |
 |RF-011| Permitir o usuário registrar depoimento  | BAIXA |
 |RF-012| Permitir doações para uma causa específica  | MÉDIA |
+
+A tabela que segue apresenta os requisitos não funcionais do projeto.
 
 ### Requisitos Não Funcionais
 
