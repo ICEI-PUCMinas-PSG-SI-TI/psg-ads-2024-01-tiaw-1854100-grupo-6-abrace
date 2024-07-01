@@ -121,20 +121,8 @@ A tabela que segue apresenta os requisitos não funcionais do projeto.
 
 ## Mapa de navegação
 
-Um usuário Em Situação de Vulnerabilidade Social ou que conheça alguém nesta situação, começa a navegar no site pela Home, se possuir cadastro, vai para a tela de Login, caso contrário é necessário que cadastre a Família no sistema primeiro. Após o cadastro ou login ele poderá ver as causas pelas quais poderá ser ajudado na tela Campanhas.
-
-Um usuário Voluntário começa a navegar no site pela Home, se possuir cadastro, vai para a tela de Login, caso contrário é necessário se cadastre no sistema primeiro. Após o cadastro ou login, ele poderá visualizar os eventos nos quais pode atuar na tela Campanhas.
-
-Um usuário Interessado em prestar auxílio começa a navegar no site pela Home, se possuir cadastro, vai para a tela de Login, caso contrário é necessário se cadastre no sistema como pessoa física primeiro. Após o cadastro ou login, ele poderá visualizar as causas para as quais pode doar na tela Campanhas. Caso se interesse por alguma campanha/causa, o usuário pode clicar no botão "Doe agora!" e contribuir através da tela Página de Doações.
-
-Um usuário de uma Empresa Interessada em prestar auxílio começa a navegar no site pela Home, se possuir cadastro, vai para a tela de Login, caso contrário é necessário se cadastre no sistema como pessoa jurídica primeiro. Após o cadastro ou login, ele poderá visualizar as causas para as quais pode doar na tela Campanhas. Caso se interesse por alguma campanha/causa, o usuário pode clicar no botão "Doe agora!" e contribuir através da tela Página de Doações.
+[Fluxo de Telas.pdf](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-ads-2024-01-tiaw-1854100-grupo-6-abrace/issues/4#issue-2382513962)
 
 # Conclusões
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Finalize escrevendo um ou dois parágrafos para relembrar o objetivo do projeto, 
-> o que foi possível alcançar e o que ficou para um trabalho futuro, e relembrando
-> as principais dificuldes encontradas e como foi possível contorná-las. 
-
-
+Por fim, acreditamos verdadeiramente que o produto final entregue pelo grupo pode ser utilizado para auxiliar as pessoas em situação de vulnerabilidade social. As principais dificuldades encontradas se deram por falta de conhecimento técnico durante o desenvolvimento do ABRACE, que contornamos naturalmente com os estudos ao decorrer do semestre. Para um trabalho futuro, podemos elaborar uma estrutura back-end para o sistema e publicá-lo de fato.
