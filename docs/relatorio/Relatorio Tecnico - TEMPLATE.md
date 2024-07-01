@@ -116,8 +116,7 @@ A tabela que segue apresenta os requisitos não funcionais do projeto.
 
 ## Wireframes
 
-[ABRACE - TIAW.pdf](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-ads-2024-01-tiaw-1854100-grupo-6-abrace/files/14973487/ABRACE.-.TIAW.pdf)
-
+[ABRACE - TIAW.pdf](https://github.com/user-attachments/files/16046926/ABRACE.-.TIAW.1.pdf)
 
 ## Mapa de navegação
 
