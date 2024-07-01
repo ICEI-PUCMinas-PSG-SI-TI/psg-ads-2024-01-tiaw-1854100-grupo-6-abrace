@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>ABRACE - Doações</title>
+  <link href="../assets/css/style.css" rel="stylesheet" type="text/css" />
+  <link href='https://fonts.googleapis.com/css?family=Lilita One' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <!--<script type="text/javascript" src="../cadastro/cadastro.js"></script>-->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script>
+    $(function () {
+      $("#tagCabecalho").load("../header.html");
+    });
+  </script>
+
+  <script>
+    $(function () {
+      $("#tagRodape").load("../footer.html");
+    });
+  </script>
+
+  <script type="text/javascript" src="doacoes.js" defer></script>
+</head>
+
+<body>
+  <!-- MENU SUPERIOR DA PÁGINA -->
+  <div id="tagCabecalho"></div>
+
+  <!-- CONTEÚDO DA PÁGINA -->
+  <main class="maindoacoes">
+
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-10 w-100">
+
+          <!-- Entrar na conta. -->
+          <div id="entrarnaconta" class="border-0 bg-transparent">
+            <div class="card shadow-lg border-0 bg-transparent">
+              <div class="card-body orange-box">
+
+                <div id="entrar-conta" class="px-3 pb-2">
+
+                  <h4 class="card-title text-center mb-4 titulo-card">Entre em sua conta</h4>
+
+                  <!-- <form>
+                    <div class="form-group">
+                      <label for="inputEmailUsuario">E-mail:</label>
+                      <input type="email" class="form-control" id="inputEmailUsuario" placeholder="Seu e-mail">
+                    </div>
+
+                    <div class="form-group mt-3">
+                      <label for="inputPassword">Senha:</label>
+                      <input type="password" class="form-control" id="inputPassword" placeholder="Sua senha">
+                    </div>
+
+                    <button type="submit" class="btn btn-success btn-block mt-3">Entrar</button>
+                  </form> -->
+
+                  <button class="btn btn-success btn-block mt-2 px-4 py-2 fs-5 fw-bold" id="entrarConta">Faça
+                    login</button>
+
+                  <p class="mt-1">Não tem uma conta? <a href="/../cadastro/cadastro.html"
+                      class="link-underline link-underline-opacity-0 text-success">Cadastre-se</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+
+          <!-- Dados básicos para doação anônima, apenas para base de dados, sem divulgação no site -->
+          <div id="anonimo" class="border-0 bg-transparent">
+            <div class="card shadow-lg border-0 bg-transparent">
+              <div class="card-body orange-box">
+
+                <div id="doacao-anonima" class="px-3 pb-2">
+
+                  <h4 class="card-title text-center mb-4 titulo-card">Caso não queira criar uma conta na ABRACE,
+                    precisaremos de algumas
+                    informações:</h4>
+
+                  <h5>Conte mais sobre você.</h5>
+
+                  <form>
+                    <div class="form-group">
+                      <label for="inputNome">Nome completo:</label>
+                      <input type="text" class="form-control" id="inputNome" name="nome"
+                        placeholder="Digite seu nome completo" pattern="[A-Za-zÀ-ÖØ-öø-ÿ]+(?: [A-Za-zÀ-ÖØ-öø-ÿ]+)*$">
+                      <small class="form-text text-muted">Por favor, insira um nome válido.</small>
+                    </div>
+
+                    <div class="form-group mt-2">
+                      <label for="inputEmailAnonimo">Email:</label>
+                      <input type="email" class="form-control" id="inputEmailAnonimo" name="email"
+                        placeholder="email@abrace.com.br" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$">
+                      <small class="form-text text-muted">Por favor, insira um endereço de e-mail válido.</small>
+                    </div>
+
+                    <div class="form-group mt-2">
+                      <label for="inputTelefone">Número de Telefone:</label>
+                      <input type="tel" class="form-control" id="inputTelefone" name="telefone"
+                        placeholder="Digite seu número de telefone. ex. +55(99)9 9999-9999"
+                        pattern="(\d{2}\)\s9\s\d{4}-\d{4}$">
+                    </div>
+
+                    <div class="form-group mt-2">
+                      <label for="inputDataNascimento">Data de Nascimento:</label>
+                      <input type="date" class="form-control" id="inputDataNascimento" name="dataNascimento">
+                    </div>
+
+                    <div class="form-group mt-2">
+                      <label for="selectSexo">Sexo:</label>
+                      <select class="form-control" id="selecionaSexo" name="sexo">
+                        <option value="masculino">Masculino</option>
+                        <option value="feminino">Feminino</option>
+                        <option value="-" selected>Não Informar</option>
+                      </select>
+                    </div>
+
+                    <div class="form-group form-check mt-2">
+                      <input type="checkbox" class="form-check-input" id="checkNotificacoes">
+                      <label class="form-check-label" for="checkNotificacoes">Desejo receber notificações sobre
+                        minhas doações realizadas.</label>
+                    </div>
+
+                    <div class="form-group form-check">
+                      <input type="checkbox" class="form-check-input" id="checkWhatsApp">
+                      <label class="form-check-label" for="checkWhatsApp">Desejo receber informações das doações
+                        via WhatsApp.</label>
+                    </div>
+
+                    <a href="#pagamentoPix"><button type="submit" class="btn btn-success btn-block mt-2"
+                        id="botaoDoacaoAnonima">Enviar
+                        Informações</button></a>
+                  </form>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          
+          <!-- Deifinição do Valor a ser doado -->
+          <div class="card shadow-lg mb-3 border-0 bg-transparent">
+            <div class="card-body green-box">
+
+              <div id="doacao" class="px-3 pb-2">
+
+                <h4 class="titulo-card card-title text-center mb-4">Escolha o valor e o período de sua doação:</h4>
+
+                <div class="row">
+                  <div class="col-md-6">
+
+                    <div class="form-group">
+                      <label for="campanha">Campanha</label>
+                      <select id="campanha" class="form-control mt-1">
+                        <option value="Campanha Produto Solidário" selected>Campanha Produto Solidário</option>
+                        <option value="Campanha Natal Solidário">Campanha Natal Solidário</option>
+                        <option value="Campanha Volta às Aulas">Campanha Volta às Aulas</option>
+                        <option value="Campanha ABRACE">ABRACE</option>
+                      </select>
+                    </div>
+                    
+                  </div>
+
+                  <div class="col-md-6">
+
+                    <div class="form-group">
+                      <label for="periodo-doacao">Período de doação</label>
+                      <select id="periodo-doacao" class="form-control mt-1">
+                        <option value="Mensal" selected>Mensal</option>
+                        <option value="Trimestral">Trimestral</option>
+                        <option value="Semestral">Semestral</option>
+                        <option value="Anual">Anual</option>
+                      </select>
+                    </div>
+                    
+                  </div>
+                </div>
+                
+
+                <div class="form-group mt-2">
+                  <label for="valor-doacao">Valor da doação</label>
+                  <div class="btn-group btn-group-toggle d-inline-block" data-toggle="buttons">
+                    <label class="btn btn-success active mr-2 mt-1 rounded">
+                      <input type="radio" name="opcao" id="opcao1" autocomplete="off" value="100" checked> R$100,00
+                    </label>
+                    <label class="btn btn-success mr-2 mt-1 rounded">
+                      <input type="radio" name="opcao" id="opcao2" autocomplete="off" value="50"> R$50,00
+                    </label>
+                    <label class="btn btn-success mr-2 mt-1 rounded">
+                      <input type="radio" name="opcao" id="opcao3" autocomplete="off" value="20"> R$20,00
+                    </label>
+                    <label class="btn btn-success mr-2 mt-1 rounded">
+                      <input type="radio" name="opcao" id="opcao4" autocomplete="off" value="outro"> Outro Valor
+                    </label>
+                  </div>
+                  <!--Input, Entrada para valor personalizado. Inicia como display:none,(oculto);-->
+                  <div class="mt-2" id="outroValor" style="display: none;">
+                      <label for="outro-valor">Digite o valor:</label>
+                      <input type="number" class="form-control" id="outro-valor" name="outro-valor" placeholder="Digite o valor em reais">
+                  </div>
+                </div>
+
+                <!-- Botão de Envio -->
+                <div class="d-flex justify-content-center">
+                  <a href="#pagamentoPix">
+                    <button class="btn btn-success btn-block mt-5 mb-3 px-4 py-2 fs-5 fw-bold" id="botaoDoacao">Doar Agora</button>
+                  </a>
+                </div>
+
+                <div class="d-flex justify-content-center mt-2">
+                  <p class="mt-1">Quer ver o seu histórico de doações? <a href="/../historico/historico.html"
+                    class="link-underline link-underline-opacity-0 text-success">Clique Aqui!</a></p>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+
+
+          <!-- Doação via PIX -->
+          <div class="card shadow-lg border-0 bg-transparent">
+            <div class="card-body green-box">
+
+              <div id="doacao" class="px-3 pb-2">
+
+                <h2 class="card-title text-center mb-3 titulo-card" id="pagamentoPix">Pagamento com Pix</h2>
+
+                <div class="text-center d-flex justify-content-center">
+                  <img src="/./assets/imgs/qr-code_ABRACE.jpg" alt="QR Code Pix" class="img-fluid mb-4"
+                    style="max-width: 200px;">
+                </div>
+
+                <div class="input-group mb-3">
+                  <input type="text" id="pix-code" class="form-control"
+                    value="00020126580014BR.GOV.BCB.PIX0136abcdefg1234567890abcdefg123456789005204000053039865802BR5925Nome Completo6014Nome da Cidade62070503***6304ABCD"
+                    readonly>
+                  <div class="input-group-append">
+                    <button class="btn btn-success" type="button" id="copy-button"
+                      onclick="copiarTexto()">Copiar</button>
+
+                    <!-- Este script só funciona no html. No doacoes.js a linha document.execCommand é depreciada, e não funciona a função. -->
+                    <script>
+                      function copiarTexto() {
+                        let textoCopiado = document.getElementById("pix-code");
+                        textoCopiado.select(); //seleciona o conteúdo do input id pix-code
+                        textoCopiado.setSelectionRange(0, 99999); // Para dispositivos móveis: Define o intervalo de seleção para o campo de entrada. Especificado aqui(0 a 99999), selecionando todo o texto no campo. Garantindo que o conteúdo completo seja copiado, especialmente em dispositivos móveis.
+
+                        document.execCommand("copy"); //executa o comando de cópia para copiar o conteúdo selecionado para a área de transferência.
+                        alert("O QR-Code foi copiado!")
+                      }
+                    </script>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+
+
+  </main>
+
+
+  <!-- RODAPÉ DA PÁGINA -->
+  <div id="tagRodape"></div>
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+<script type="text/javascript" src="../header.js"></script>
+<!-- MENU SUPERIOR -->
+<nav class="navbar navbar-expand-lg" id="menu">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="../index.html">
+      <p class="lilitaOneLOGO">
+        ABRACE
+      </p>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Conheça
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="../index.html#sobrenos">Sobre nós</a></li>
+              <li><a class="dropdown-item" href="../index.html#mvv">Missão, Visão e Valores</a></li>
+              <li><a class=" dropdown-item" href="../index.html#parceiros">Parceiros</a></li>
+              <li><a class=" dropdown-item" href="../index.html#contatos">Contatos</a></li>
+              <li><a class="dropdown-item" href="../index.html#redes">Redes Sociais</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              O Projeto
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="../campanhas/campanhas.html">Campanhas</a></li>
+              <li><a class="dropdown-item" href="../mapa/mapa.html">Mapa de Distribuição</a></li>
+              <li><a class="dropdown-item" href="../calculadora/calculadora.html">Calculadora de Impacto</a></li>
+              <li><a class="dropdown-item" href="../depoimentos/depoimentos.html">Depoimentos</a></li>
+              <li><a class="dropdown-item" href="../galeria/galeria.html">Galeria de Fotos</a></li>
+              <li><a class="dropdown-item" href="../noticias/noticias.html"">Notícias</a></li>
+            </ul>
+          </li>
+          <li class=" nav-item">
+                  <a class="nav-link" href="../doacoes/doacoes.html">Doe Agora</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../cadastro/cadastro.html">Cadastre-se</a>
+              </li>
+            </ul>
+            <a> <svg id="botaoUsuario" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                class="bi bi-person-circle" viewBox="0 0 16 16">
+                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+                <path fill-rule="evenodd"
+                  d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1" />
+              </svg> </a>
+      </div>
+    </div>
+  </div>
+  </div>
+</nav>
+<!-- TELA USUÁRIO LOGIN -->
+<div id="login">
+  <button class="fecharmenu" id="fecharMenu">X</button>
+  <div id="logado">
+    <h5>Usuário:</h5>
+    <a href="../usuario/usuario.html" class="botaodologin" id="meuPerfil">Meu Perfil</a>
+    <button class="botaodologin" id="fazerLogout">Sair</button>
+  </div>
+  <div id="naologado">
+    <h5>Entre em sua conta:</h5>
+    <label for="email">E-mail</label>
+    <input type="email" id="emailLogin" required> <br><br>
+    <label for="senha">Senha</label>
+    <input type="password" id="senhaLogin" required> <br><br>
+    <label for="tipoDeCadastro">Eu sou:</label>
+    <select id="tipoDeCadastro" name="tipoDeCadastro" required>
+      <option value="usuario">Beneficiário</option>
+      <option value="voluntario">Voluntário</option>
+      <option value="doador">Doador</option>
+      <option value="administrador">Administrador</option>
+    </select>
+    <button class="botaodologin" id="entrar">Entrar</button>
+    <a href="../cadastro/cadastro.html" class="cadastre-se">Ou Cadastre-se</a>
+  </div>
+  <div id="admdosistema">
+    <h5>Bem vindo, Administrador!</h5>
+    <a href="../administrador/adm.html" class="botaodologin">Cadastrar Campanhas</a>
+    <a href="../administrador2/adm2.html" class="botaodologin">Listagem de Campanhas</a>
+    <a href="../administrador3/adm3.html" class="botaodologin">Cadastro de Entregas</a>
+    <button class="botaodologin" id="fazerLogoutADM">Sair</button>
+  </div>
+</div>

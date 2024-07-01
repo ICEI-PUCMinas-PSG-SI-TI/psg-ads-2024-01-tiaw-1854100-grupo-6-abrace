@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html class="mapa">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>ABRACE</title>
+  <!--Fontes-->
+  <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lilita+One&display=swap"
+    rel="stylesheet">
+  <!--CSS-->
+  <link href="../assets/css/style.css" rel="stylesheet" type="text/css" />
+  <!--Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <!--jQuery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <!--JS-->
+  <script src="mapa.js"></script>
+  <!--Cabeçalho e rodapé-->
+  <script>
+    $(function () {
+      $("#tagCabecalho").load("../header.html");
+    });
+  </script>
+
+  <script>
+    $(function () {
+      $("#tagRodape").load("../footer.html");
+    });
+  </script>
+  <!--Mapa-->
+  <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+  <link href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" rel="stylesheet" />
+
+</head>
+
+<body>
+  <!-- MENU SUPERIOR DA PÁGINA -->
+  <div id="tagCabecalho"></div>
+  <!-- CONTEÚDO DA PÁGINA -->
+  <main>
+
+    <div class="info">
+      <p class="lilitaOne">
+        <span>MAPA</span> <br> de distribuição
+      </p>
+      <p class="inter">
+        Beneficiado, aqui você encontra um mapa interativo com os locais de distribuição das cestas básicas e
+        assistência mensal oferecida pelo projeto ABRACE. Interaja para visualizar os pontos de distribuição mais
+        próximos
+        de você e as datas de entrega.
+      </p>
+    </div>
+    <div class="mapaPerguntas">
+      <div id="map"></div>
+      <div id="perguntas">
+        <h1>FAQ</h1>
+        <div class="dropdown pergunta">
+          <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Não encontro lugares próximos à mim, o que posso fazer?
+          </button>
+          <ul class="dropdown-menu" style="padding: 10px;">
+            <li>Entre em contato conosco e dê sugestões de lugares!</li>
+          </ul>
+        </div>
+        <div class="dropdown pergunta">
+          <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Não vejo datas de próximas entregas na região onde moro.
+          </button>
+          <ul class="dropdown-menu" style="padding: 10px;">
+            <li>Nossas datas de entregas são atualizadas frequentemente, fique ligado no nosso site!</li>
+          </ul>
+        </div>
+        <div class="dropdown pergunta">
+          <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Não consigo visualizar o mapa no meu navegador.
+          </button>
+          <ul class="dropdown-menu" style="padding: 10px;">
+            <li>Tente recarregar a página. Se isto não funcionar, certifique-se de que seu navegador está atualizado ou
+              utilize outro navegador.</li>
+          </ul>
+        </div>
+        <div class="dropdown pergunta">
+          <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            O que levar no dia da retirada do benefício?
+          </button>
+          <ul class="dropdown-menu" style="padding: 10px;">
+            <li>RG, CNH ou algum outro documento com foto.</li>
+          </ul>
+        </div>
+        <p>Para mais dúvidas relacionadas
+          visite o nosso <strong>FAQ</strong> (Perguntas
+          Frequentes) ou entre em contato conosco.</p>
+      </div>
+    </div>
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active visivel" id="calendario">
+        </div>
+        <div class="carousel-item invisivel" id="calendarioProx">
+        </div>
+      </div>
+      <button class="carousel-control-prev botaoCarrossel" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next botaoCarrossel" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <button id="presenca">Confirmar presença para retirada</button>
+    <p class="infoRodape">Beneficiado, faça login em sua conta e confirme o local e data da sua retirada, de acordo com
+      o nosso calendário, para facilitar o processo de logística no nosso time!</p>
+  </main>
+  <!-- RODAPÉ -->
+  <div id="tagRodape"></div>
+</body>
+
+</html>

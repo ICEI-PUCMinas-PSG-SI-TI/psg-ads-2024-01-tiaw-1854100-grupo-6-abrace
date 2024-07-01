@@ -1,0 +1,1875 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  /* background-color: #fff8dc; */
+  background-image: linear-gradient(to top, #ffbe40, #fff8dc);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* MENU SUPERIOR E FOOTER */
+nav {
+  background-color: #ffbe40;
+}
+
+footer {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: #ffbe40;
+}
+
+nav svg {
+  margin-top: 10%;
+  margin-left: 20px;
+  color: black;
+}
+
+a.dropdown-item:hover {
+  color: #FA7401;
+  font-weight: bolder;
+}
+
+a.dropdown-item:active {
+  color: white;
+  background-color: #FA7401;
+  font-weight: bolder;
+}
+
+#login {
+  display: none;
+  position: absolute;
+  right: 20px;
+  top: 80px;
+  width: 30%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  z-index: 1000;
+}
+
+.botaodologin {
+  text-decoration: none;
+  font-weight: bolder;
+  display: block;
+  width: 90%;
+  margin: 10px auto;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffbe40;
+  color: #FA7401;
+}
+
+.cadastre-se {
+  color: #FA7401;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.fecharmenu {
+  background-color: #FA7401;
+  padding: 2px 6px;
+  border: none;
+  color: white;
+  border-radius: 15px;
+  font-weight: bolder;
+  font-size: 10px;
+  float: left;
+}
+
+.fecharmenu:hover {
+  background-color: #bd5800;
+  border-radius: 15px;
+}
+
+/* Conteúdo TELA INICIAL - INDEX */
+main {
+  width: 100%;
+  padding-bottom: 50px;
+  margin: 0 auto;
+}
+
+.banner-home {
+  width: 100%;
+}
+
+.conteudodahome {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.seta {
+  width: 50px;
+  margin: 20px auto;
+  align-items: center;
+}
+
+.botaodahome {
+  text-decoration: none;
+  font-weight: bolder;
+  display: block;
+  width: 50%;
+  margin: 30px auto;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffbe40;
+  color: #FA7401;
+}
+
+.botaodahome:hover {
+  background-color: #FA7401;
+  color: white;
+  font-weight: bolder;
+}
+
+.texto-home {
+  margin: 0, auto;
+  margin-top: 15px;
+  text-align: center;
+}
+
+h1.texto-home {
+  color: #FA7401;
+  font-family: 'Lilita One';
+}
+
+h2.texto-home {
+  margin-top: 50px;
+  font-family: 'Lilita One';
+  padding: 10px 30px;
+  color: #FA7401;
+  background-color: #ffbe40;
+  border-radius: 10px;
+}
+
+h2.texto-home:hover {
+  color: white;
+  background-color: #FA7401;
+}
+
+h3.texto-home {
+  color: #FA7401;
+  font-family: 'Lilita One';
+}
+
+h4.texto-home {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.a {
+  font-family: 'Lilita One';
+  font-size: 80px;
+  color: #FA7401;
+}
+
+.b {
+  font-family: 'Lilita One';
+  font-size: 80px;
+  color: #B7BF10;
+}
+
+.c {
+  font-family: 'Lilita One';
+  font-size: 80px;
+  color: #ffbe40;
+}
+
+.todoscards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px;
+}
+
+.card {
+  margin: 20px;
+}
+
+.classificacao {
+  width: 100px;
+}
+
+.parceiros {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.parceiros-home {
+  margin: 0 auto;
+  height: 80px;
+}
+
+.fotos-home {
+  margin: 0 auto;
+  height: 150px;
+}
+
+.redesocial {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.redesocial:hover {
+  color: #FA7401;
+}
+
+/* TELA DE CADASTRO MELISSA */
+#familia {
+  display: block;
+}
+
+#voluntario {
+  display: none;
+}
+
+#doador {
+  display: none;
+}
+
+.maincadastro {
+  width: 60%;
+  margin: 30px auto;
+}
+
+.tipodecadastro {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.formulario {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* BOTÕES */
+.botao {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffbe40;
+  color: white;
+}
+
+.botao:hover {
+  background-color: #FA7401;
+}
+
+#botaoCadastrarMembro {
+  display: block;
+  width: 50%;
+  margin: 30px auto;
+}
+
+.formulario input[type="submit"] {
+  display: block;
+  width: 50%;
+  padding: 10px 20px;
+  margin: 30px auto;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffbe40;
+  color: white;
+}
+
+.formulario input[type="submit"]:hover {
+  background-color: #FA7401;
+}
+
+/* FONTES */
+.formulario h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.formulario h6 {
+  text-align: center;
+}
+
+.formulario label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* CAMPOS PARA PREENCHER */
+.formulario input,
+.formulario select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* TABELA */
+.tabelaFamiliares {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 90%;
+}
+
+.tabelaFamiliares th,
+.tabelaFamiliares td {
+  border: 2px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.tabelaFamiliares th {
+  background-color: #f2f2f2;
+}
+
+.remover-btn {
+  background-color: #ff1b0a;
+  padding: 5px 10px;
+  border: none;
+  color: white;
+  border-radius: 15px;
+  font-weight: bolder;
+  font-size: smaller;
+}
+
+.remover-btn:hover {
+  background-color: #b30c00;
+  border-radius: 15px;
+}
+
+.error,
+.errorV,
+.errorD {
+  color: red;
+  margin-bottom: 10px;
+}
+
+/* TELA DE USUÁRIO - MELISSA */
+.maincadastro>h1 {
+  text-align: center;
+  font-family: 'Lilita One';
+  color: #FA7401;
+  font-size: 40px;
+}
+
+#bemvindo {
+  font-weight: bolder;
+  font-size: 30px;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+#editarInfo,
+#alterarSenha {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 60%;
+}
+
+.maincadastro>h5 {
+  text-align: center;
+}
+
+.tipodecadastro>a {
+  text-decoration: none;
+}
+
+.editarinfo {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.usuarioinfo {
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.editarinfos {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.editainfoh3 {
+  text-align: center;
+}
+
+.usuarioinfo>h5 {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.excluiperfil {
+  display: block;
+  margin: 0 auto;
+  color: #ff1b0a;
+  padding: 5px;
+  border: 1px solid white;
+  font-size: smaller;
+  font-weight: bolder;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.excluiperfil:hover {
+  border: 1px solid #ff1b0a;
+}
+
+/* ESTILO DAVI */
+.green-box {
+  background-color: #B7BF10;
+  border-radius: 15px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px 50px;
+}
+
+.red-box {
+  background-color: #FA7401;
+  border-radius: 15px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px 50px;
+}
+
+.orange-box {
+  background-color: #ffcc66;
+  border-radius: 15px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px 50px;
+  border: 8px solid #B7BF10;
+}
+
+.maindoacoes {
+  margin: 50px auto;
+  width: 55%;
+  background-color: #ffbe40;
+  /*white*/
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  /*text-align: center;*/
+}
+
+.titulo-card {
+  font-size: 2.5rem !important;
+  /*6vw em mobile*/
+  font-weight: bolder;
+  color: #FA7401 !important;
+}
+
+.subtitulo-card {
+  font-size: 2rem !important;
+  /*6vw em mobile*/
+  font-weight: bolder;
+  color: #a0a80b !important;
+}
+
+.card-background {
+  border-radius: 15px !important;
+  /* Adicionando raios uniformes */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5) !important;
+  /* Adicionando sombra */
+}
+
+/* PÁGINA GALERIA */
+.img-fluid {
+  width: 300px;
+  margin: 30px;
+}
+
+#galeria {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+}
+
+/* ESTILO SAMUEL - inicio DEPOIMENTOS - */
+.Stext {
+  color: #959b22;
+  font-weight: bolder;
+  margin-top: 30px;
+  text-align: center;
+  font-family: 'Lilita One';
+  font-size: 26px;
+}
+
+.Svisualizar {
+  display: block;
+  font-family: inter;
+  font-size: 16px;
+  margin-top: 40px;
+  margin-left: 334px;
+}
+
+@media (max-width: 993px) {
+  .Svisualizar {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .Svisualizar {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+  }
+}
+
+.Svisualizar button {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  transition: transform 0.3s;
+}
+
+.Svisualizar button:hover {
+  transform: translateY(2px);
+}
+
+.Sdizer {
+  color: #959b22;
+  font-weight: bolder;
+  margin-top: 50px;
+  text-align: center;
+  font-family: 'Lilita One';
+  font-size: 26px;
+}
+
+.StextDepoi {
+  margin-top: 40px;
+  font-size: 18px;
+  text-align: center;
+  font-family: inter;
+}
+
+.quadrado {
+  border: 2px solid #eabc57;
+  padding: 20px;
+  background-color: #eabc57;
+}
+
+.Sdepoimentos {
+  margin-top: 100px;
+  position: relative;
+  z-index: 0;
+}
+
+.Simagem {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom right, #959b22, #eabc57);
+  margin-top: -150px;
+  z-index: -1;
+}
+
+.Simagem img {
+  margin-top: 0;
+  max-height: 90vh;
+  width: auto;
+  height: auto;
+}
+
+@media (max-width: 1000px) {
+  .Simagem img {
+    max-width: 100vw;
+    max-height: 100vh;
+    margin-top: 130px;
+  }
+}
+
+.col.text-center {
+  position: relative;
+  z-index: 2;
+}
+
+.Srodape {
+  margin-top: -36px;
+}
+
+#testimonialsModal .modal-dialog {
+  max-width: 1000px;
+  max-height: 1000px;
+}
+
+#testimonialsModal .modal-content {
+  background-color: #FFA500;
+  border: 2px solid #000;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#testimonialsModal .modal-title {
+  color: #000000;
+}
+
+#testimonialsModal .modal-body {
+  color: #000;
+}
+
+.blur-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  z-index: 999;
+  display: none;
+}
+
+.testimonial-card {
+  width: 18rem;
+}
+
+.testimonial-card {
+  height: 200px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonial-card .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.testimonial-card .card-text {
+  flex-grow: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+/* ESTILO SAMUEL - FIM DEPOIMENTOS - */
+
+
+/* ESTILO SAMUEL - inicio calculadora - */
+
+.Scalculadora {
+  margin-top: 30px;
+  text-align: center;
+  font-family: 'Lilita One';
+  color: #FFBE40;
+}
+
+.Simpacto {
+  font-size: 1.5em;
+  color: #FA7401;
+}
+
+.SapresentaCalcula {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 15px;
+  margin-top: 40px;
+  font-size: 1.1em;
+}
+
+.Sparent-containerSS {
+  display: flex;
+  align-items: flex-start;
+}
+
+#ScontainerS {
+  margin: 50px;
+  width: 60%;
+  margin-top: 80px;
+}
+
+.Sform-group {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.Scalc {
+  color: #FA7401;
+  font-family: 'Lilita One', cursive;
+  margin-right: 10px;
+}
+
+#Scalcular {
+  margin-top: 10px;
+  margin-left: 150px;
+  background-color: #FFBE40;
+  color: black;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#Scalcular:hover {
+  background-color: #FFA366;
+}
+
+input[type="Snumber"] {
+  flex-grow: 1;
+}
+
+input[type="Snumber"]::placeholder {
+  font-size: 0.9em;
+  color: #888;
+}
+
+#Sescolha {
+  flex-grow: 1;
+}
+
+@media (width: 1024px) {
+  .Sparent-containerSS {
+    justify-content: center;
+  }
+
+  #ScontainerS {
+    margin: 20px;
+    width: 90%;
+    margin-top: 40px;
+  }
+
+  #Scalcular {
+    margin-left: 0;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.Simage-container {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 90px;
+  position: relative;
+}
+
+@media screen and (max-width: 1100px) {
+  .Simage-container img {
+    display: none;
+  }
+}
+
+.Simage-container img {
+  position: absolute;
+  top: -320px;
+}
+
+.Stituloresultado {
+  margin-top: 50px;
+  text-align: center;
+  font-family: 'Lilita One';
+  color: #959b22;
+}
+
+.Simgseta {
+  display: block;
+  margin: 0 auto;
+  width: 50px;
+}
+
+.SapoioS {
+  margin-top: 25px;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.Sresults-container {
+  margin-top: 50px;
+}
+
+.Sresult-field {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Sresult-field label {
+  font-family: 'Lilita One', cursive;
+  color: #959b22;
+  font-size: 20px;
+  width: 200px;
+  text-align: right;
+  margin-right: 10px;
+}
+
+.Sresult-field input {
+  padding: 8px;
+  font-family: 'Lilita One', cursive;
+  font-size: 20px;
+  color: #333;
+  border: 1px solid #ccc;
+}
+
+.Sbutton-containerSS {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.botaoSS button,
+.Sbutton button {
+  background-color: inherit;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+
+.botaoSS button {
+  background-color: #FFA366;
+}
+
+.Sbutton button {
+  background-color: #959b22;
+}
+
+.SImgFINAL {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom right, #959b22, #eabc57);
+  margin-top: -80px;
+  z-index: -1;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+
+@media (max-width: 850px) {
+  .SImgFINAL {
+    display: none;
+  }
+}
+
+/* ESTILO SAMUEL - fim calculadora - */
+
+
+/* ESTILO MAGALHÃES */
+.text-center {
+  color: #FA7401;
+  font-weight: 100;
+  margin-top: 20px;
+  font-family: 'Lilita One';
+  font-size: 40px;
+  letter-spacing: 3px;
+
+}
+
+.subtitulocenter {
+  color: #B7BF10;
+  text-align: center;
+  font-family: 'Lilita One';
+  font-size: 25px;
+  letter-spacing: 3%;
+}
+
+.pcenter {
+  font-family: 'Inter';
+  font-size: 16px;
+  text-align: center;
+}
+
+.imagemSeta {
+  display: block;
+  margin: 0 auto;
+}
+
+.corTexto h5 {
+  color: #07411E;
+  font-family: 'Inter';
+  font-weight: bold;
+}
+
+div.campanha,
+card {
+  border-width: 10px;
+  border-style: solid;
+  border-image: linear-gradient(to bottom, #FA7401, #9CFA00) 1;
+  border-radius: 10px;
+}
+
+.botaodacampanha {
+  text-decoration: none;
+  font-weight: bolder;
+  display: block;
+  width: 90%;
+  margin: 25px auto;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffbe40;
+  color: #3a3131;
+  margin-bottom: 0;
+  text-align: center;
+
+}
+
+.botaodacampanha:hover {
+  background-color: #FA7401;
+  color: white;
+}
+
+div.bannerCampanha {
+  /* background-image: url('../imgs/bannerCampanha.png');
+  background-repeat: no-repeat;
+  width: 99vw;
+  height: 800px;
+  background-size: cover;
+  position: center; */
+  margin-top: 50px;
+  /* margin-left: -120px;*/
+
+}
+
+.bannerCampanha p {
+  text-align: center;
+  font-family: 'Inter';
+}
+
+.botaodoSuporte {
+  text-decoration: none;
+  font-weight: bolder;
+  display: block;
+  width: 20%;
+  margin: 25px auto;
+  padding: 10px 20px;
+  border: none;
+  background-color: #B7BF10;
+  color: black;
+  margin-bottom: 0;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.botaodoSuporte:hover {
+  background-color: #FA7401;
+  color: white;
+}
+
+/* CSS Magalhães Notícias */
+
+.text-centerNoti {
+  color: #FA7401;
+  text-align: center;
+  font-weight: 100;
+  margin-top: 20px;
+  font-family: 'Lilita One';
+  font-size: 40px;
+}
+
+.subtitulocenterNoti {
+  color: #B7BF10;
+  text-align: center;
+  font-family: 'Lilita One';
+  font-size: 25px;
+  letter-spacing: 3%;
+  margin-top: 20px;
+}
+
+.pcenter {
+  font-family: 'Inter';
+  font-size: 16px;
+  text-align: center;
+  margin-top: -10px;
+}
+
+.imagemNoticia {
+  margin-top: 120px;
+  margin-right: 50px;
+  width: 300px;
+  float: left;
+  margin-bottom: 10px;
+
+}
+
+.corTextoNoticia {
+  color: #07411E;
+  font-family: 'Inter';
+  font-weight: bolder;
+  margin-top: 120px;
+
+}
+
+.pcenterNoticia {
+  font-family: 'Inter';
+  font-size: 16px;
+
+}
+
+.pcenterNoticiaData {
+  font-family: 'Inter';
+  font-size: 16px;
+  margin: 0;
+
+}
+
+#formNoticia {
+  width: 400px;
+  height: 520px;
+  background-color: #FA7401;
+  margin-top: 100px;
+  border-radius: 5px;
+  padding: 20px;
+  display: none;
+}
+
+.subtitulocenterNoti {
+  font-size: 30px;
+}
+
+#formNoticia input {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+#formNoticia textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+#formNoticia button {
+  width: 100%;
+  height: 30px;
+  background-color: #ffbe40;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  font-weight: bold;
+}
+
+#formNoticia button:hover {
+  background-color: #fb9032;
+  color: white;
+}
+
+
+/*CSS Arthur - Mapa de Distribuição*/
+
+.info {
+  justify-content: center;
+  display: block;
+  margin: 0 20vw;
+}
+
+.infoRodape {
+  text-align: center;
+  display: block;
+  margin: 0 20vw;
+  color: black;
+  background-color: white;
+  opacity: 0.8;
+}
+
+.lilitaOne,
+p.lilitaOneLOGO {
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #FFBE40;
+}
+
+a p.lilitaOneLOGO {
+  font-size: 30px;
+  color: #FA7401;
+  margin: 0;
+}
+
+span.lilitaOne {
+  float: left;
+}
+
+.lilitaOne span {
+  color: #FA7401;
+  font-size: 50px;
+}
+
+div.info p.lilitaOne {
+  display: inline;
+  float: left;
+}
+
+.info .inter {
+  padding-top: 10px;
+}
+
+.info .lilitaOne {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+p.lilitaOne {
+  text-align: center;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+
+.mapaPerguntas {
+  margin: 15vh 10vw;
+}
+
+.mapaPerguntas h1 {
+  font-size: 30px;
+}
+
+#perguntas {
+  text-align: justify;
+  position: absolute;
+  top: 30%;
+  right: 5%;
+  width: 350px;
+}
+
+.pergunta {
+  position: relative;
+  width: 250px;
+  text-align: center;
+  align-self: center;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+div.pergunta button.btn {
+  max-width: 250px;
+  text-wrap: wrap;
+  background-color: #FFFFFF;
+}
+
+#map {
+  max-width: 55vw;
+}
+
+#calendario table,
+#calendario th,
+#calendario td,
+#calendarioProx table,
+#calendarioProx th,
+#calendarioProx td {
+  border: solid 1px black;
+  background-color: #FFFFFF;
+  padding: 5px;
+  opacity: 0.9;
+}
+
+#calendario th,
+#calendarioProx th {
+  text-align: center;
+}
+
+.carousel {
+  width: 100%;
+  position: relative;
+  left: 0;
+  right: 0;
+}
+
+.carousel div#calendario,
+.carousel div#calendarioProx {
+  position: relative;
+  left: 25%;
+  display: table;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.visivel {
+  display: block;
+}
+
+.invisivel {
+  display: none !important;
+}
+
+div#calendario td.marcado,
+div#calendarioProx td.marcado {
+  color: #2E4630;
+  background-color: #9cff8f;
+}
+
+div.carousel-caption {
+  position: relative;
+  color: black;
+  left: 0%;
+}
+
+.carousel-inner {
+  justify-content: center;
+}
+
+#calendario th,
+#calendario td,
+#calendarioProx th,
+#calendarioProx td {
+  width: 1%;
+}
+
+button#presenca {
+  border: solid 1px black;
+  border-radius: 12.5px;
+  background-color: #FFBE40;
+  color: black;
+  padding: 5px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+html.mapa {
+  background-image: url(../imgs/mapaBackground.png);
+  background-repeat: no-repeat;
+}
+
+/*CSS Arthur - Cadastro de Entregas*/
+
+.formCadastroEntrega {
+  margin-inline: auto;
+  background: #FA7401;
+  max-width: 600px;
+  height: 40vh;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 40px black;
+  text-align: center;
+}
+
+.formCadastroEntrega h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: black;
+  font-size: 22pt;
+}
+
+.formCadastroEntrega p {
+  text-align: left;
+}
+
+.formCadastroEntrega .botao {
+  font-family: "Lilita One", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  color: black;
+  font-weight: bold;
+}
+
+.formCadastroEntrega .botao:hover {
+  background-color: #FFBE40;
+}
+
+#listaPontos,
+#listaDatas {
+  display: none;
+  text-align: center;
+  margin-top: 5vh;
+  color: black;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  font-variation-settings: "slnt" 0;
+}
+
+#listaPontos li,
+#listaDatas li {
+  list-style-type: none;
+  border-bottom: solid 1px gray;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: block;
+  max-width: 700px;
+  padding-bottom: 30px;
+}
+
+#listaPontos h2,
+#listaDatas h2 {
+  font-size: 150%;
+}
+
+.formCadastroEntrega .input-single-data {
+  display: block;
+  margin: 0 auto;
+}
+
+.formCadastroEntrega .input-single {
+  position: relative;
+  margin: 2vh 0;
+}
+
+.formCadastroEntrega .input-single label {
+  position: absolute;
+  left: 0;
+  bottom: 5px;
+  cursor: text;
+  transition: all 0.5s;
+  color: #808080;
+}
+
+.formCadastroEntrega .input-single .input {
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid #808080;
+  border-radius: 5px;
+  padding: 5px;
+  outline: 0;
+  font-size: 16px;
+}
+
+.formCadastroEntrega .input-single .input:focus {
+  border-bottom: 2px solid #2D5966;
+}
+
+.formCadastroEntrega .input-single .input:focus~label,
+.formCadastroEntrega .input-single .input:valid~label {
+  transform: translateY(-175%);
+  font-size: 12px;
+  color: #2D5966;
+}
+
+.formCadastro input[type=submit] {
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 10px;
+  background-color: #ffbe40;
+  color: black;
+  font-size: 14pt;
+  cursor: pointer;
+  margin: 0px !important;
+}
+
+div#btnCadastrarPontoDeEntrega {
+  text-align: center;
+}
+
+div#btnCadastrarDataDeEntrega {
+  text-align: center;
+}
+
+
+/*Estilo Bernardo Administrador 1*/
+.formCadastro {
+  margin-inline: auto;
+  background: #FA7401;
+  max-width: 600px;
+  height: 550px;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 40px black;
+}
+
+.formCadastro h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: black;
+  font-size: 22pt;
+}
+
+.formCadastro p {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.formCadastro .input-single {
+  position: relative;
+  margin: 30px 0;
+}
+
+.formCadastro .input-single label {
+  position: absolute;
+  left: 0;
+  bottom: 5px;
+  cursor: text;
+  transition: all 0.5s;
+  color: #808080;
+}
+
+.formCadastro .input-single .input {
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid #808080;
+  border-radius: 5px;
+  padding: 5px;
+  outline: 0;
+  font-size: 16px;
+}
+
+.formCadastro .input-single .input:focus {
+  border-bottom: 2px solid #2D5966;
+}
+
+.formCadastro .input-single .input:focus~label,
+.formCadastro .input-single .input:valid~label {
+  transform: translateY(-20px);
+  font-size: 12px;
+  color: #2D5966;
+}
+
+.formCadastro .input-single-a {
+  position: relative;
+  margin: 30px 0;
+}
+
+.formCadastro .input-single-a label {
+  cursor: text;
+  transition: all 0.5s;
+}
+
+.formCadastro .input-single-a .input {
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid #808080;
+  border-radius: 5px;
+  padding: 5px;
+  outline: 0;
+  font-size: 16px;
+}
+
+.formCadastro .input-single-b {
+  position: relative;
+  margin: 30px 0;
+}
+
+.formCadastro .input-single-b label {
+  position: absolute;
+  left: 0;
+  bottom: top;
+  cursor: text;
+  transition: all 0.5s;
+  color: #808080;
+}
+
+.formCadastro .input-single-b .input {
+  width: 100%;
+  height: 5em;
+  border: 0;
+  border-bottom: 2px solid #808080;
+  border-radius: 5px;
+  padding: 5px;
+  outline: 0;
+  font-size: 16px;
+}
+
+#btnCadastrarCampanha {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+.formCadastro input[type=submit] {
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 10px;
+  background-color: #ffbe40;
+  color: black;
+  font-size: 14pt;
+  cursor: pointer;
+}
+
+/*Administrador 2*/
+.ativo {
+  color: #13A74C;
+  text-decoration: none;
+}
+
+.inativo {
+  color: #A60909;
+  text-decoration: none;
+}
+
+.card-principal {
+  margin: 0;
+}
+
+.card-corpo {
+  background-color: #fff8dc;
+  padding: 0%;
+  width: 20rem;
+  min-height: 15rem;
+  border-width: 5px;
+  border-style: solid;
+  border-image: linear-gradient(to bottom, #FA7401, #9CFA00) 1;
+  box-shadow: 2px 2px 10px black;
+}
+
+.card-titulo {
+  color: #07411E;
+}
+
+.card-text {
+  text-align: center;
+}
+
+.card-titulo {
+  text-align: center;
+  font-size: 3vh;
+}
+
+.bi-circle-fill {
+  color: #FA7401;
+}
+
+.editarCamp {
+  text-decoration: none;
+  color: black;
+}
+
+span .ativo {
+  color: #13A74C;
+}
+
+span .inativo {
+  color: #A60909;
+}
+
+/* Estilos para dispositivos móveis */
+@media only screen and (max-width: 768px) {
+
+  /* LOGIN */
+  #login {
+    display: none;
+    top: 80px;
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    z-index: 1000;
+  }
+
+  /* CADASTRO MELISSA */
+  .maincadastro {
+    width: 90%;
+    margin: 30px auto;
+  }
+
+  /* TABELA */
+  /* Estilos para tornar a tabela responsiva */
+  .tabelaFamiliares {
+    overflow-x: auto;
+    max-width: 100%;
+    display: block;
+  }
+
+  .tabelaFamiliares th,
+  .tabelaFamiliares td {
+    padding: 8px;
+    text-align: center;
+  }
+
+  #botaoCadastrarMembro {
+    width: 80%;
+  }
+
+  #botaoSubmitFamilia,
+  #botaoSubmitVoluntario,
+  #botaoSubmitDoador {
+    width: 80%;
+  }
+
+  /* USUÁRIO MELISSA */
+  .usuarioinfo {
+    width: 90%;
+  }
+
+  .tipodecadastromobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #editarInfo,
+  #alterarSenha {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 80%;
+  }
+
+  .botao {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  /* ESTILO DAVI */
+  .maindoacoes {
+    width: 90%;
+    background-color: #ffbe40;
+    /*white*/
+    padding: 5px;
+  }
+
+  .titulo-card {
+    font-size: 7vw !important;
+    line-height: normal;
+  }
+
+  .subtitulo-card {
+    font-size: 5vw !important;
+  }
+
+  /* LUIZ */
+  .botaodoSuporte {
+    width: 60%;
+  }
+
+  /*CSS Arthur - Mapa de Distribuição*/
+  .info {
+    display: block;
+    margin: 0 auto;
+    padding: 30px;
+    padding-bottom: 0;
+  }
+
+  .infoRodape {
+    text-align: center;
+    display: block;
+    margin: 0 20vw;
+    color: black;
+    background-color: white;
+    opacity: 0.8;
+  }
+
+  .lilitaOne,
+  p.lilitaOneLOGO {
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFBE40;
+  }
+
+  a p.lilitaOneLOGO {
+    font-size: 30px;
+    color: #FA7401;
+    margin: 0;
+  }
+
+  span.lilitaOne {
+    float: left;
+  }
+
+  .lilitaOne span {
+    color: #FA7401;
+    font-size: 50px;
+  }
+
+  div.info p.lilitaOne {
+    display: inline;
+    float: left;
+  }
+
+  .info .inter {
+    padding-top: 10px;
+  }
+
+  .info .lilitaOne {
+    margin-right: 10px;
+    font-size: 20px;
+  }
+
+  p.lilitaOne {
+    text-align: center;
+  }
+
+  .inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+  }
+
+  #calendario table,
+  #calendario th,
+  #calendario td,
+  #calendarioProx table,
+  #calendarioProx th,
+  #calendarioProx td {
+    border: solid 1px black;
+    background-color: #FFFFFF;
+    padding: 5px;
+    opacity: 0.9;
+  }
+
+  #calendario th,
+  #calendarioProx th {
+    text-align: center;
+  }
+
+  .carousel {
+    width: 100%;
+    position: relative;
+    left: 0;
+    right: 0;
+  }
+
+  .carousel div#calendario,
+  .carousel div#calendarioProx {
+    position: relative;
+    left: 25%;
+    display: table;
+    margin: 0 auto;
+    width: 50%;
+  }
+
+  .carousel-caption {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .visivel {
+    display: block;
+  }
+
+  .invisivel {
+    display: none !important;
+  }
+
+  div#calendario td.marcado,
+  div#calendarioProx td.marcado {
+    color: #2E4630;
+    background-color: #9cff8f;
+  }
+
+  div.carousel-caption {
+    position: relative;
+    color: black;
+    left: 0%;
+  }
+
+  .carousel-inner {
+    position: relative;
+    left: 1vw;
+  }
+
+  #calendario th,
+  #calendario td,
+  #calendarioProx th,
+  #calendarioProx td {
+    width: 1%;
+  }
+
+  button#presenca {
+    border: solid 1px black;
+    border-radius: 12.5px;
+    background-color: #FFBE40;
+    color: black;
+    padding: 5px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  html.mapa {
+    background-image: url(../imgs/mapaBackground.png);
+    background-repeat: no-repeat;
+  }
+
+}
+
+@media only screen and (max-width: 1200px) {
+  .mapaPerguntas {
+    margin: 5vh 0vw;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mapaPerguntas h1 {
+    font-size: 30px;
+  }
+
+  #perguntas {
+    text-align: center;
+    justify-content: center;
+    position: static;
+    display: block;
+    margin: 0 auto;
+    width: 350px;
+  }
+
+  .pergunta {
+    position: relative;
+    width: 250px;
+    text-align: center;
+    align-self: center;
+    display: block;
+    margin: 2vh auto;
+    border-radius: 10px;
+  }
+
+  div.pergunta button.btn {
+    max-width: 250px;
+    text-wrap: wrap;
+    background-color: #FFFFFF;
+  }
+
+  #map {
+    max-width: 55vw;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5vh;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+
+  .carousel div#calendario,
+  .carousel div#calendarioProx {
+    display: table;
+    margin: 0 auto;
+    width: 50%;
+    position: relative;
+    left: 13vw !important;
+  }
+}

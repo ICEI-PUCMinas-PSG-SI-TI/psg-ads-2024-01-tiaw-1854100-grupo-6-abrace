@@ -1,0 +1,88 @@
+{
+  "historico": [
+    {
+      "id": 1,
+      "usuarioLogado": false,
+      "user":"davi@abrace.com.br",
+      "password": 123456,
+      "doacoes":[
+      {
+        "id_doacao": 1,
+        "campanha": "Campanha Produto Solidário.",
+        "data": "01/01/2021",
+        "tipo_doacao": "Mensal",
+        "valor": "100.00",
+        "status": "Cancelado"
+      },
+      {
+        "id_doacao": 2,
+        "campanha": "Campanha Produto Solidário.",
+        "data": "11/11/2021",
+        "tipo_doacao": "Mensal",
+        "valor": "100.00",
+        "status": "Concluído"
+      },
+      {
+        "id_doacao": 3,
+        "campanha": "Campanha Agasalho para Todos.",
+        "data": "05/04/2022",
+        "tipo_doacao": "Semestral",
+        "valor": "50.00",
+        "status": "Concluído"
+      },
+      {
+        "id_doacao": 4,
+        "campanha": "Campanha Volta às Aulas.",
+        "data": "09/06/2024",
+        "tipo_doacao": "Mensal",
+        "valor": "100.00",
+        "status": "Pendente"
+      }
+      ]
+
+    },
+    
+    {
+      "id": 2,
+      "usuarioLogado": true,
+      "user":"jaderson@abrace.com.br",
+      "password": 131313,
+      "doacoes":[
+      {
+        "id_doacao": 1,
+        "campanha": "Campanha Volta às Aulas.",
+        "data": "01/02/2023",
+        "tipo_doacao": "Mensal",
+        "valor": "100.00",
+        "status": "Concluído"
+      },
+      {
+        "id_doacao": 2,
+        "campanha": "Campanha Natal Solidário.",
+        "data": "24/12/2023",
+        "tipo_doacao": "Mensal",
+        "valor": "100.00",
+        "status": "Concluído"
+      },
+      {
+        "id_doacao": 3,
+        "campanha": "Campanha Volta às Aulas.",
+        "data": "05/02/2024",
+        "tipo_doacao": "Semestral",
+        "valor": "20.00",
+        "status": "Pendente"
+      }]
+
+    },
+    {
+      "id": 3,
+      "usuarioLogado": false,
+      "user":"anonimo@abrace.com.br",
+      "password": 654321,
+      "doacoes":[]
+
+    }
+    
+  ]
+  
+}
