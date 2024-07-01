@@ -121,7 +121,7 @@ A tabela que segue apresenta os requisitos não funcionais do projeto.
 
 ## Mapa de navegação
 
-[Fluxo de Telas.pdf](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-ads-2024-01-tiaw-1854100-grupo-6-abrace/issues/4#issue-2382513962)
+[Fluxo de Telas.pdf](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-ads-2024-01-tiaw-1854100-grupo-6-abrace/blob/master/docs/relatorio/Fluxo%20de%20Telas%20ABRACE.pdf)
 
 # Conclusões
 
